@@ -16,6 +16,20 @@ public class Variable {
     private String identification;
     private String name;    
     private String type;
+    private Object
+    
+    
+    public Variable(boolean objective,
+            String indentification,
+            String name,
+            String type){
+        
+        this.objective=objective;
+        this.identification=indentification;
+        this.name=name;
+        this.type=type;
+        
+    }
 //    private 
 //    private WorkMemory workmemory;
 

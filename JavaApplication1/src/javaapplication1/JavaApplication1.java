@@ -5,6 +5,8 @@
  */
 package javaapplication1;
 
+import Structures.Variable;
+
 /**
  *
  * @author rzfzr
@@ -16,6 +18,14 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Variable variable = new Variable(
+        true,
+        "Q0123",
+        "TestVariable",
+        "");
+        
+    
+    
     }
     
 }
