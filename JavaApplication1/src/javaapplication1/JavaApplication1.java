@@ -5,6 +5,9 @@
  */
 package javaapplication1;
 
+import Structures.Antecedent;
+import Structures.Consequent;
+import Structures.Rule;
 import Structures.Variable;
 
 /**
@@ -22,7 +25,9 @@ public class JavaApplication1 {
         true,
         "Q0123",
         "TestVariable",
-        "");
+        ""
+        );
+        Rule rule = new Rule("se nacionalidade  = ", new Antecedent(), new Consequent());
         
     
     

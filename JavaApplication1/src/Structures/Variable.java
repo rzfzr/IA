@@ -16,7 +16,7 @@ public class Variable {
     private String identification;
     private String name;    
     private String type;
-    private Object
+    private Object temp;
     
     
     public Variable(boolean objective,
