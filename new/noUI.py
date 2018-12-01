@@ -8,7 +8,7 @@ selectedText=[]
 
 valuesTable = []
 
-fields = 3
+fields = 5
 
 calculated = []
 # values.append([])
@@ -116,15 +116,6 @@ def CatBox(self,vbox,cat):
     cat_store.add_attribute(renderer_text, "text", 0)
     vbox.pack_start(cat_store, False, False, True)
 
-
-def GetWeight(val):
-    return 2
-def GetMax(val):
-    return 11
-def GetMin(val):
-    return 1
-def Normalize(val):
-    return abs(val)
 
 def ValBox(self,vbox,cat):
 
@@ -236,7 +227,7 @@ class ComboBoxWindow(Gtk.Window):
 
         rows = df.index
         for row in rows:
-            if(calculated[row]>0.01):
+            if(calculated[row]>0.0):
                 # print(calculated.index(done),done)
                 print(df.iat[row,0],df.iat[row,1],calculated[row])
 
